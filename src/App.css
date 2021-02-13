@@ -1,0 +1,83 @@
+.intro{
+    height: 250px;
+    /* width: 100vw; */
+    /* position: absolute; */
+    width: 100%;
+    background-image: url('./foodimage.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    margin-top: -38px;
+
+}
+.intro h1{
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 40px;
+    z-index: 999;
+    position: relative;
+    top: 20px;
+  
+}
+.search{
+    text-align: center;
+}
+.search input{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 300px;
+    margin-right: 7px;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.search input:focus{
+    box-shadow: 0 0 5px rgb(47, 54, 61);
+    border: 1px solid rgb(44, 48, 59) ;
+}
+.search button{
+    height: 32px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(8, 29, 88);
+    color: white;
+    padding: 2px 15px;
+    border: 1px solid rgb(44, 48, 59) ;
+}
+.itemCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+@media (max-width:768px){
+
+    .intro{
+        /* height: 220px; */
+        width: 101.5%;
+    }
+    .search input{
+        width: 300px;
+    }
+    .itemCards{
+        display: flex;
+        /* flex-wrap: wrap;
+        justify-content: space-between; */
+        flex-direction: column;
+    }
+    .intro h1{
+        position: relative;
+        top: 35px;
+    }
+    .search input{
+        margin-top: 40px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,48 @@
+.cards{
+    /* max-width: 500px; */
+    text-align: center;
+    border: black solid 2px;
+    width: 32vw;
+    background-color: rgba(223, 49, 165, 0.123);
+    margin-bottom: 15px;
+
+}
+.cards .title{
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-top: 0px;
+    border-bottom: solid 1px black;
+    color: rgb(255, 255, 255);
+    font-style:oblique;
+    
+}
+.cards img{
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(47, 54, 61);
+}
+.cards .calories{
+    background-color: rgba(47, 224, 255, 0.384);
+    height: 30px;
+    border-bottom: solid 1px black;
+    font-style: italic;
+}
+.cards .items{
+    background-color: rgba(172, 255, 47, 0.63);
+    /* background-color: rgba(47, 224, 255, 0.384); */
+    height: 40px;
+    border-bottom: solid 1px black;
+    margin-top: -13px;
+
+}
+.cards ul{
+ text-align: start;
+ font-size: 20px;
+
+}
+@media (max-width:768px){
+
+    .cards{
+        width: 100%;
+    }
+}
