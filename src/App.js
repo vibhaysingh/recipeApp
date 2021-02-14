@@ -28,7 +28,7 @@ const App = () => {
     if(search.trim()!=0)
     setquery(search);
     else
-    alert('Please Enter valid Food Names')
+    alert('Please Enter Valid Food Names')
     setsearch('');
   }
   return (
@@ -49,8 +49,11 @@ const App = () => {
             ingredients={recipe.recipe.ingredients}
             calories={recipe.recipe.calories}
           />
-        ))};
+        ))}
       </div>
+      <div class="dev">
+        <p>This App is Designed & maintained by Vibhay Singh</p>
+    </div>
     </div>
   );
 }
