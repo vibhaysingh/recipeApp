@@ -1,11 +1,9 @@
 .cards{
-    /* max-width: 500px; */
     text-align: center;
     border: black solid 2px;
     width: 32vw;
     background-color: rgba(223, 49, 165, 0.123);
     margin-bottom: 15px;
-
 }
 .cards .title{
     background-color: rgba(0, 0, 0, 0.61);
