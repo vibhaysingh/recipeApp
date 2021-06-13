@@ -1,4 +1,4 @@
- # Recpie App
+ # Recipe App
 
 ### [To see Live Demo of this App Click here !](https://vibhaysingh.github.io/recipeApp/)
 
